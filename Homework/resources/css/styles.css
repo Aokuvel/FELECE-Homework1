@@ -1,0 +1,347 @@
+.buyukmenu{
+    display: block;
+}
+
+#btngeri{
+    border: none;
+    background-color: white;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+#btnara{
+    border: none;
+    background-color: white;
+    margin-top: 5px;
+    float: right;
+}
+
+.enust1{
+    height: 30%; 
+    background-color: whitesmoke;
+}
+
+.kucukmenu{
+    height: 100%;
+    width: 100%;
+    position: sticky;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    display: block;
+    transition: 0.1s;
+    background-color: white;
+    display: none;
+}
+
+#mobileuyeolvegirisyap
+{
+    display: none;
+}
+
+#hbz-searchbox1
+{
+    display: none;        
+}
+
+#analogokucuk
+{
+    display: none;   
+}
+
+#kucukbuton
+{
+    display: none;
+}
+
+#btn{
+    display: none;
+    border: 0px;
+    background-color: white;
+}
+
+.gezin {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  display: block;
+  transition: 0.1s;
+  background-color: white;
+}
+
+
+@media only screen and (min-width: 150px) and (max-width: 768px)
+{   
+    #girisyap
+    {
+        display: none;
+    }
+    
+    #mobileuyeolvegirisyap
+    {
+        display: block;
+        position: absolute;
+    }
+    
+    #mobileuyeolvegirisyap1
+    {
+        position: absolute;
+    }
+
+    #hbz-searchbox{
+        
+        display: none;
+        
+    }
+    
+    #hbz-searchbox1{
+        
+        display: block;
+        
+    }
+    
+    #analogo
+    {
+        display: none;        
+    }
+    
+    #analogokucuk
+    {
+        display: block; 
+    }
+    
+    #kucukbuton
+    {
+        display: block;
+    }
+    
+    #btn{
+    display: block;
+    }
+}
+
+/*-------------------------------------------------*/
+ 
+.menu{
+    position: absolute;
+    z-index: 5;
+}
+
+.menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li{
+    float: left;
+    position: relative;
+    width: 120px;
+}
+
+ul li ul{
+        display: none;
+    }
+    
+ul li:hover ul{
+   display: block;
+}
+    
+ul li a{
+    text-decoration: none;
+    /*background: whitesmoke;*/
+     display: block;
+    color: black;
+    text-align: center;
+    /*font-weight: bold;*/
+    border-left: 1px;
+    padding: 5px;
+}
+    
+ul li ul li a{
+    background: whitesmoke;
+    text-align: left;
+    padding: 5px;
+    /*border-bottom: 1px solid #333;*/
+    font-size: .8em;
+}
+    
+li a:hover{
+   transition: .5s;
+}
+    
+ul li ul li a:hover{
+    color: blue;
+    padding-left: 15px;
+}
+    
+ul li a:hover{
+    color: blue;
+}
+
+
+/*-------------------------------------------------*/
+
+#hbz-searchbox {
+    width: 100%;
+    overflow: hidden;
+    max-width: 95.5%;
+    margin-bottom: 1%;
+}
+
+#hbz-input {
+    width: 80%;
+    height: 37px;
+    padding: 8 4%;
+    border: none;
+    background-color: #fff;
+    box-shadow: 0 0 2px #333333 inset;
+    font-family: Merriweather;
+    font-size: 14px;
+}
+
+#hbz-input:focus {
+    outline: none;
+    background-color: #eee;
+    box-shadow: 0 0 2px #333333 inset;
+}
+
+#hbz-submit {
+    overflow: visible;
+    position: absolute;
+    float: right;
+    border: 1 px;
+    border-color: whitesmoke;
+    padding: 0;
+    cursor: pointer;
+    height: 37px;
+    width: 15%;
+    color: black;
+    background-color: white;
+    font-family: Merriweather;
+}
+
+#hbz-submit:focus,
+#hbz-submit:active {
+    background-color: #C42F2F;
+    outline: none;
+}
+
+#hbz-submit:hover {
+    background-color: #286ab1;
+}
+
+/*-------------------------------------------------*/
+
+#hbz-searchbox1 {
+    width: 100%;
+    overflow: hidden;
+    max-width: 95.5%;
+    margin-bottom: 1%;
+}
+
+#hbz-input1 {
+    width: 95%;
+    height: 27px;
+    padding: 8 4%;
+    border: none;
+    background-color: #fff;
+    box-shadow: 0 0 2px #333333 inset;
+    font-family: Merriweather;
+    font-size: 14px;
+}
+
+#hbz-input1:focus {
+    outline: none;
+    background-color: #eee;
+    box-shadow: 0 0 2px #333333 inset;
+}
+
+#hbz-submit1 {
+    overflow: visible;
+    position: absolute;
+    float: right;
+    border: 1 px;
+    border-color: whitesmoke;
+    padding: 0;
+    cursor: pointer;
+    height: 27px;
+    width: 10%;
+    color: black;
+    background-color: white;
+    font-family: Merriweather;
+}
+
+#hbz-submit1:focus,
+#hbz-submit1:active {
+    background-color: #C42F2F;
+    outline: none;
+}
+
+#hbz-submit1:hover {
+    background-color: #286ab1;
+}
+/*************************************/
+
+.box-menu {
+  background-color: white;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1%;
+  color: #4C82B5;
+  cursor: pointer;
+}
+.box-menu font {
+  font-size: large;
+  margin-left: 5%;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+.box-menu:hover {
+  background-color: #F0F0F0;
+}
+
+
+@media screen and (min-width: 768px) {
+  .kucukmenu {
+    display: none !important;
+  }
+  .anasayfa {
+    display: block !important;
+  }
+}
+
+.menudetay {
+  display: none;
+  z-index: 3;
+}
+
+.scrollmenu {
+  height: auto;
+  width: 100vw;
+  overflow-x: scroll !important;
+  display: flex;
+  
+}
+.scrollmenu img {
+  width: 60%;
+  height: auto;
+  margin-left: 2rem;
+}
+
+.aramenu{
+    width: 100vw;
+    height: 100vh;
+}
+
+

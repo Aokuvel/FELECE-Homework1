@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Homework</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">        
+        
+        <!--Fontawesome-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/all.min.js"></script> 
+        <!--Pupper-->
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <!-- Style Less 
+        <link rel="stylesheet/less" type="text/css" href="resources/css/styles.less"/>-->
+        <script src="//cdn.jsdelivr.net/npm/less" ></script> 
+        
+        <link href="resources/css/styles.css" rel="stylesheet/less" type="text/css"/> <!--main.less-->
+        
+        <!-- CSS -->
+        <link rel="stylesheet" type="text/css" href="resources/css/styles.css">
+        <!--<link rel="stylesheet" type="text/css" href="resources/css/stylesmenu.css">-->
+        <!--Script-->
+        <script src="resources/javascript/script.js"></script>
+        <!-- icon -->
+        <link href="resources/images/appLogoIcon.png" rel="shortcut icon">
+    </head>
+
+    <body>
+        <div class="kucukmenu" id="kucukmenu">
+            
+            <div class="container">
+                <div style="float: left;">
+                    <button id="btngeri" onclick="hideMe('kucukmenu')"><img src="resources/images/arrow-left-solid.svg" alt="#" width="15px;" height="px;" ></button>
+                </div>
+                <div style="float: right;">
+                    <button id="btnara"><img src="resources/images/search-solid.svg" alt="#arama" width="15px;" height="15px;" ></button>
+                </div>
+                <div>
+                    <a href="#anasayfa"><img src="resources/images/logo.png" id="#analogo" style="width: 30%; margin-top: 10px; margin-bottom: 10px;"></a>
+                </div>
+                
+            </div>
+                
+                <div class="enust1">
+                    <div class="container">
+                        <div class="row" style="height: 50px;">
+                            <div class="col-lg-6" id="mobileuyeolvegirisyap1" style="z-index: 3; margin-top: 10px;">
+                                <div id="uyeol" style="position: relative; float: left;">
+                                    <a href="#uyeol" style="text-decoration: none;"><font size= "3" style = "padding-top: 5px; padding-bottom: 5px;">Üye Ol</font></a>
+                                </div>
+                                <div style=" float: left; margin-left: 5px; margin-right: 5px;">
+                                    <font size= "2" >&nbsp;|&nbsp;</font>
+                                </div>
+                                <div id="girisyapmobile" style=" float: left;">
+                                    <a href="#girisyap1" style="text-decoration: none;"><font size= "3" style = " padding-top: 5px; padding-bottom: 5px;">Giriş Yap</font></a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6" style="z-index: 2; margin-top: 10px;">
+                                <a href="#siparistakip" style="text-decoration: none;"><font size= "2" style = "float: right; padding-top: 5px; padding-bottom: 5px;">SİPARİŞ TAKİP</font></a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div style="height: 80vh;">
+                    <div class="row aramenu" id="aramenu">
+                        <div class="col-md box-menu" id="Kadın1" onclick="showDetay('menudetay')"><font>Kadın</font><i class="fas fa-arrow-right i-padding"></i></div>
+                        <div class="col-md box-menu" id="Erkek1" onclick="showDetay('menudetay')"><font>Erkek</font><i class="fas fa-arrow-right i-padding"></i></div>
+                        <div class="col-md box-menu" id="Çocuk1" onclick="showDetay('menudetay')"><font>Çocuk</font><i class="fas fa-arrow-right i-padding"></i></div>
+                        <div class="col-md box-menu" id="Bebek1" onclick="showDetay('menudetay')"><font>Bebek</font><i class="fas fa-arrow-right i-padding"></i></div>
+                        <div class="col-md box-menu" id="Home1" onclick="showDetay('menudetay')"><font>Home</font><i class="fas fa-arrow-right i-padding"></i></div>
+                        <div class="col-md box-menu" id="Markalar1" onclick="showDetay('menudetay')"><font>Markalar</font><i class="fas fa-arrow-right i-padding"></i></div>
+                        <div class="col-md box-menu" id="Outlet1" onclick="showDetay('menudetay')"><font>Outlet</font><i class="fas fa-arrow-right i-padding"></i></div>
+                    </div>
+                    
+                    <div class=" row menudetay" id="menudetay">
+                        <div class="scrollmenu">
+                            <img src="/resources/images/5.jpg" alt="1">
+                            <img src="/resources/images/6.jpg" alt="1">
+                            <img src="/resources/images/5.jpg" alt="1">
+                            <img src="/resources/images/6.jpg" alt="1">
+                        </div>
+                        
+                        <div class="aramenu">
+                            <div class="col-md box-menu" id="kazak2"><font>Kazak</font><i class="fas fa-arrow-right i-padding"></i></div>
+                            <div class="col-md box-menu" id="sweatshirt2"><font>Sweatshirt</font><i class="fas fa-arrow-right i-padding"></i></div>
+                            <div class="col-md box-menu" id="pantolon2"><font>Pantolon</font><i class="fas fa-arrow-right i-padding"></i></div>
+                            <div class="col-md box-menu" id="gömlek2"><font>Gömlek</font><i class="fas fa-arrow-right i-padding"></i></div>
+                            
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div class="buyukmenu" id="buyukmenu" >
+        <div class="enust" style="height: 30%; background-color: whitesmoke;">
+            <div class="container">
+                <div class="row">
+                    <div id="mobileuyeolvegirisyap"  style="margin-left: 20px; z-index: 2;" >
+                        <div id="uyeol" style="position: relative; float: left;">
+                            <a href="#uyeol" style="text-decoration: none;"><font size= "1" style = "color: black; padding-top: 5px; padding-bottom: 5px;">Üye Ol</font></a>
+                        </div>
+                        <div style=" float: left; margin-left: 5px; margin-right: 5px;">
+                            <font size= "1" >&nbsp;|&nbsp;</font>
+                        </div>
+                        <div id="girisyapmobile" style=" float: left;">
+                            <a href="#girisyap1" style="text-decoration: none;"><font size= "1" style = "color: black; padding-top: 5px; padding-bottom: 5px;">Giris Yap</font></a>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-12">
+                        <a href="#siparistakip" style="text-decoration: none;"><font size= "1" style = "float: right; padding-top: 5px; padding-bottom: 5px;">SİPARİŞ TAKİP</font></a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="container" id="anasayfa">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div id="analogo">
+                        <a href="#anasayfa"><img src="resources/images/logo.png" style="width: 100%; margin-bottom: 20px;"></a>
+                    </div>
+                    
+                    <div class="container" id="kucukkenolacaklar">
+                        <div class="row">
+                            <div class="menubutton" style="position: absolute; float: left; z-index: 2;">
+                                
+                                <button id="btn" onclick="showMe('kucukmenu');"><img src="resources/images/bars-solid.svg" alt="#" width="15px;" height="px;" ></button>
+                                
+                            </div>
+                        
+                            <div class="col-lg-8" id="analogokucuk" style="position: absolute; float: left; margin-left: 50px;">
+                                <a href="#anasayfa"><img src="resources/images/logo.png" id="#analogo" style="width: 50%; margin-bottom: 20px;"></a>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="col-lg-7">
+
+                <form id="hbz-searchbox" action="/search" method="get">
+                    <input type="text" id="hbz-input" name="q" placeholder="Aradığınız tüm ürünler bir tık uzağınızda" />
+                    <input type="hidden" name="max-results" value="12" />
+                    <button id="hbz-submit" type="submit"><img src="resources/images/search-solid.svg" alt="#arama" width="15px;" height="15px;" ></button>
+                </form>
+
+                </div>
+                <div class="col-lg-2"> 
+                    <div style="float: right; margin-left: 5px;">
+                        <a href="#sepetim" style="text-decoration: none;">
+                            <div style="text-align: center;">
+                                <img src="resources/images/shopping-basket-solid.svg" alt="#" width="20px;" height="20px;">
+                            </div>
+                            <div style="text-align: center;">
+                                <font size="1" >&nbsp;Sepetim</font>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div style="float: right; margin: 0px, 10px, 0px, 10px;">
+                        <a href="#favorilistem" style="text-decoration: none;">
+                            <div style="text-align: center;">
+                                <img src="resources/images/heart-regular.svg" alt="#" width="20px;" height="20px;" >
+                            </div>
+                            <div style="text-align: center; ">
+                                <font size="1">Favori Listem</font>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div id="girisyap" style="float: right; margin: 0px, 10px, 0px, 10px;" >
+                        <a href="#girisyap" style="text-decoration: none;">
+                            <div style="text-align: center;">
+                                <img src="resources/images/sign-in-alt-solid.svg" alt="#" width="20px;" height="20px;" >
+                            </div>
+                            <div style="text-align: center  ">
+                                <font size="1" >Giriş Yap</font> &nbsp;
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container" >
+            <div class="row">
+                <div class="col-lg-12" style="margin-top: 15px;">
+                    <form id="hbz-searchbox1" action="/search" method="get">
+                    <input type="text" id="hbz-input1" name="q" placeholder="Aradığınız tüm ürünler bir tık uzağınızda" />
+                    <input type="hidden" name="max-results" value="12" />
+                    <button id="hbz-submit1" type="submit"><img src="resources/images/search-solid.svg" alt="#arama" width="10px;" height="10px;" ></button>
+                </form>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <nav class="navbar navbar-expand-md" style=" height: 80%; margin-bottom: 20px;">
+
+            <div class="container">
+
+                <div class="collapse navbar-collapse">
+                    <nav class="menu" id="#anamenu">
+                        <ul>
+                            <li><a href="#kadin" style="color: black; text-align: center;"><font size="3";>KADIN</font></a>
+                                <div>
+                                    <ul>
+                                      <li><a href="#kazak">Kazak</a></li>
+                                      <li><a href="#sweatshirt">Sweatshirt</a></li>
+                                      <li><a href="#pantolon">Pantolon</a></li>
+                                      <li><a href="#elbise">Elbise</a></li>
+                                      <li><a href="#tunik">Tunik</a></li>
+                                      <li><a href="#gömlek">Gömlek</a></li>
+                                      <li><a href="#hırka">Hırka</a></li>
+                                    </ul>
+                                </div>
+                                <!--
+                                <div id="ikinciliste">
+                                    <ul>
+                                      <li><a href="#">Console</a></li>
+                                      <li><a href="#">Windows</a></li>
+                                      <li><a href="#">WPF</a></li>
+                                    </ul>
+                                </div>-->
+                            </li>
+                            <li><a style="color: black;"  href="#erkek"><font size="3">ERKEK</font></a>
+                                <ul>
+                                    <li><a href="#kazak">Kazak</a></li>
+                                    <li><a href="#sweatshirt">Sweatshirt</a></li>
+                                    <li><a href="#pantolon">Pantolon</a></li>
+                                    <li><a href="#tshirt">T-shirt</a></li>
+                                    <li><a href="#tunik">Tunik</a></li>
+                                    <li><a href="#gömlek">Gömlek</a></li>
+                                    <li><a href="#hırka">Hırka</a></li>
+                                </ul>
+                            </li>
+                            <li><a style="color: black;"  href="#cocuk"><font  size="3">ÇOCUK</font></a>
+                                <ul>
+                                    <li><a href="#sweatshirt">Sweatshirt</a></li>
+                                    <li><a href="#pantolon">Pantolon</a></li>
+                                    <li><a href="#tshirt">T-shirt</a></li>
+                                    <li><a href="#tayt">Tayt</a></li>
+                                    <li><a href="#gömlek">Gömlek</a></li>
+                                    <li><a href="#hırka">Hırka</a></li>
+                                </ul>
+                            </li>
+                            <li><a style="color: black;"  href="#bebek"><font  size="3">BEBEK</font></a>
+                                <ul>
+                                    <li><a href="#sweatshirt">Sweatshirt</a></li>
+                                    <li><a href="#pantolon">Pantolon</a></li>
+                                    <li><a href="#tshirt">T-shirt</a></li>
+                                    <li><a href="#tayt">Tayt</a></li>
+                                    <li><a href="#gömlek">Gömlek</a></li>
+                                    <li><a href="#hırka">Hırka</a></li>
+                                </ul>
+                            </li>
+                            <li><a style="color: black;"  href="#home"><font  size="3">HOME</font></a>
+                                <ul>
+                                    <li><a href="#yatakodasi">Yatak Odası</a></li>
+                                    <li><a href="#bebekvecocuk">Bebek ve Çocuk</a></li>
+                                    <li><a href="#banyo">Banyo</a></li>
+                                    <li><a href="#mutfak">Mutfak</a></li>
+                                    <li><a href="#oturmaodasi">Oturma Odası</a></li>
+                                </ul>
+                            </li>
+                            <li><a style="color: black;"  href="#markalar"><font  size="3">MARKALAR</font></a>
+                                <ul>
+                                    <li><a href="#allday">Allday</a></li>
+                                    <li><a href="#lorealparis">L'Oreal Paris</a></li>
+                                    <li><a href="#garnier">Garnier</a></li>
+                                    <li><a href="#unibaby">Uni Baby</a></li>
+                                    <li><a href="#weebaby">Wee Baby</a></li>
+                                    <li><a href="#organickid">Organickid</a></li>
+                                </ul>
+                            </li>
+                            <li><a style="color: orangered;"  href="#outlet"><font  size="3">OUTLET</font></a>
+                                <ul>
+                                  <li><a href="#giyim">Giyim</a></li>
+                                  <li><a href="#icgiyim">İç Giyim</a></li>
+                                  <li><a href="#disgiyim">Dış Giyim</a></li>
+                                  <li><a href="#aksesuar">Aksesuar</a></li>
+                                  <li><a href="#ayakkabi">Ayakkabı</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            </nav>
+            <div id="bosluk1" style="width: 100%; height: 20px;"></div>
+            <div class="container">
+            </div>
+            <div class="row">
+                
+                <div class="col-lg-12">
+                    <a href="#ustbanner">
+                            <img src="resources/images/USTBANNER_WEB@2x-2.jpg" style="width: 100%">
+                    </a>
+                </div>
+                <div id="bosluk2" style="width: 100%; height: 15px;"></div>
+                <div class="col-lg-6">
+                    <a href="#birincibanner">
+                        <img src="resources/images/7.jpg" style="width: 100%; margin-bottom: 15px;">
+                    </a>
+                </div>
+                <div class="col-lg-6">
+                    <a href="#ikincibanner">
+                        <img src="resources/images/5.jpg" style="width: 100%; margin-bottom: 15px;">
+                    </a>
+                </div>
+                <div class="container">
+                    <div class="carousel slide"  data-ride="carousel" id="dene"  >
+                        <div  class="carousel-inner" style="margin-bottom: 15px;">
+                            <div class="carousel-item active">
+                                <a href="#birincislider">
+                                    <img src="resources/images/slider.png" style="width: 100%">
+                                </a>
+                            </div>
+                            <div class="carousel-item" >
+                                <a href="#ikincislider">
+                                    <img src="resources/images/slider2.png" style="width: 100%">
+                                </a>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="#ucuncuslider">
+                                        <img src="resources/images/slider3.png" style="width: 100%">
+                                </a>
+                            </div>
+                            <a class="carousel-control-prev" href="#dene" data-slide="prev" > <span class="carousel-control-prev-icon" aria-hidden="true"></span></a>
+                            <a class="carousel-control-next" href="#dene" data-slide="next" > <span class="carousel-control-next-icon" aria-hidden="true" ></span></a>
+                        </div>
+                    </div>
+                </div> <!-- Kayan yazı conteiner -->
+            </div> <!-- row -->
+        </div> <!-- container -->  
+        </div>
+    </body>
+</html>

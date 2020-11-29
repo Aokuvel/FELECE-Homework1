@@ -1,0 +1,268 @@
+#mobileuyeolvegirisyap
+{
+    display: none;
+}
+
+#hbz-searchbox1
+{
+    display: none;        
+}
+
+#analogokucuk
+{
+    display: none;   
+}
+
+#kucukbuton
+{
+    display: none;
+}
+
+.toggler{
+    display: none;
+}
+
+@media only screen and (min-width: 150px) and (max-width: 768px)
+{   
+    #girisyap
+    {
+        display: none;
+    }
+    
+    #mobileuyeolvegirisyap
+    {
+        display: block;
+        position: absolute;
+    }
+
+    #hbz-searchbox{
+        
+        display: none;
+        
+    }
+    
+    #hbz-searchbox1{
+        
+        display: block;
+    }
+    
+    #analogo
+    {
+        display: none;        
+    }
+    
+    #analogokucuk
+    {
+        display: block; 
+    }
+    
+    #kucukbuton
+    {
+        display: block;
+    }
+    
+    .toggler{
+    display: block;
+    }
+
+}
+
+////////////////////////////////////
+
+.menu {
+    position: absolute;
+    z-index: 5;
+    
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    li{
+        float: left;
+        position: relative;
+        width: 120px;
+    }
+    
+    ul{
+        li{
+            ul{
+                display: none;
+            }
+        }
+    }
+    
+    ul {
+        li:hover{
+            ul{
+                display: block;
+            }
+        }
+    
+    ul{
+        li{
+            a{
+                text-decoration: none;
+                /*background: whitesmoke;*/
+                display: block;
+                color: black;
+                text-align: center;
+                /*font-weight: bold;*/
+                border-left: 1px;
+                padding: 5px;
+                }
+            }
+        }
+    
+    ul {
+        li{
+            ul{
+                li{
+                    a{
+                        background: whitesmoke;
+                        text-align: left;
+                        padding: 5px;
+                        /*border-bottom: 1px solid #333;*/
+                        font-size: .8em;
+                    }
+                }
+            }
+        }
+    }
+    
+    li {
+        a:hover{
+        transition: .5s;
+        }
+    }
+    
+    ul {
+        li{
+            ul{
+                li{
+                    a:hover{
+                        color: blue;
+                        padding-left: 15px;
+                    }
+                }
+            }
+        }
+    }
+        
+    
+        ul {
+            li{
+                a:hover{
+                    color: blue;
+                }
+            }
+        }
+}
+
+
+////////////////////////////////////////////////////////
+@siyah: #333333;
+@beyaz: #eee;
+#hbz-searchbox {
+    overflow: hidden;
+    max-width: 95.5%;
+    margin-bottom: 1%;
+
+    #hbz-input {
+        width: 80%;
+        padding: 8 4%;
+        border: none;
+        background-color: #fff;
+        box-shadow: 0 0 2px #333333 inset;
+        font-family: Merriweather;
+        font-size: 14px;
+    }
+
+    #hbz-input:focus {
+        outline: none;
+        background-color: @beyaz;
+        box-shadow: 0 0 2px @siyah inset;
+    }
+    
+    #hbz-submit {
+        overflow: visible;
+        position: absolute;
+        float: right;
+        border: 1 px;
+        border-color: whitesmoke;
+        padding: 0;
+        cursor: pointer;
+        height: 37px;
+        width: 15%;
+        color: black;
+        background-color: white;
+        font-family: Merriweather;
+    }
+    
+    #hbz-submit:focus,
+    #hbz-submit:active {
+        background-color: #C42F2F;
+        outline: none;
+    }
+
+    #hbz-submit:hover {
+        background-color: #286ab1;
+    }
+    
+}
+
+/*-------------------------------------------------*/
+
+#hbz-searchbox1 {
+    width: 100%;
+    overflow: hidden;
+    max-width: 95.5%;
+    margin-bottom: 1%;
+
+    #hbz-input1 {
+    width: 95%;
+    height: 27px;
+    padding: 8 4%;
+    border: none;
+    background-color: #fff;
+    box-shadow: 0 0 2px #333333 inset;
+    font-family: Merriweather;
+    font-size: 14px;
+    }
+
+    #hbz-input1:focus {
+        outline: none;
+        background-color: #eee;
+        box-shadow: 0 0 2px #333333 inset;
+    }
+    
+    #hbz-submit1 {
+        overflow: visible;
+        position: absolute;
+        float: right;
+        border: 1 px;
+        border-color: whitesmoke;
+        padding: 0;
+        cursor: pointer;
+        height: 27px;
+        width: 10%;
+        color: black;
+        background-color: white;
+        font-family: Merriweather;
+    }
+
+    #hbz-submit1:focus,
+    #hbz-submit1:active {
+        background-color: #C42F2F;
+        outline: none;
+    }
+
+    #hbz-submit1:hover {
+        background-color: #286ab1;
+    }
+    
+}
+
+
+
